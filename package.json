@@ -1,0 +1,27 @@
+{
+  "name": "ck_edit",
+  "version": "1.0.0",
+  "description": "ck editor",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ondev97/ckeditor5.git"
+  },
+  "author": "onDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ondev97/ckeditor5/issues"
+  },
+  "homepage": "https://github.com/ondev97/ckeditor5#readme",
+  "dependencies": {
+    "aws-sdk": "^2.922.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0"
+  }
+}
